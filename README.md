@@ -1,2 +1,5 @@
 # COVID--19-prediction
 This is a project for Data Science about predicting COVID -19. 
+
+## Abstract
+In this project, data science is applied to dataset associated with Covid-19. The Dataset is cleaned, clustered, and lastly regressed in multiple ways for prediction of future outcome. The cleaning of data is done by dropping columns, searching for missing data, interpolating, and combining columns in the dataset. The cleaning resulted in a dataset with close to zero NaN-values and plotting of altered columns is done to visually confirm a reasonable cleaning. Different methods is used to cluster the dataset, among them are agglomerative and Kmeans clustering of a combination of columns. Agglomerative clustering of total cases and total deaths is proven to correlate with WHO's groupings of how well countries are handling the pandemic. Different models of predicting future outcome of total cases, total deaths, new cases and new deaths are assessed. Polynomial and LSTM are proven to best fit the data, while other methods seem to somewhat abbreviate from test data.
